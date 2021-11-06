@@ -1,0 +1,31 @@
+#container{
+    width: 397px;
+    height: 990px;
+    top:0px;
+    border : 1px solid black;
+    position: relative
+
+}
+
+#photo {
+    background-position: top center;
+    margin : 9px 12px 742px 37px;
+}
+
+img {
+    height: 260px;
+    width: 320px;
+    position: relative;
+}
+
+ div > #melumat {
+    height: 46px;
+     width: 361px;
+    margin: 258px 18px 686px 37px;
+    font-size: 21px;
+    line-height: 31.04px;
+    color: black;
+    font-weight: 400;
+    font-family:'Open Sans', sans-serif ;  
+    position: absolute;
+}

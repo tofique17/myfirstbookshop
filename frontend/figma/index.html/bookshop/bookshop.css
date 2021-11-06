@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  width: 1440px;
+  height: 2186px;
+  position: relative;
+}
+
+.header {
+    position: relative;
+    padding: 0 16rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12rem;
+}
+
+.nav .logo{
+    font-size: 2.4rem;
+    font-weight: 700;
+
+}
+
+
+.nav .nav-links li {
+  display: inline-block;
+}
+
+.nav .nav-links li a {
+  text-decoration: none;
+  color: #5c6a79;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+.nav .nav-links li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.nav .nav-links .selected a {
+  color: #1c2a39;
+  font-weight: 900;
+}
+
+.nav .nav-icons {
+  list-style-type: none;
+}
+
+
+.nav .nav-icons li{
+    display: inline-block;
+    padding: 0 2rem;  
+
+}
+
+.book{
+    width: 520px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.sekil{
+    width: 212px;
+    height: 350px;
+}
+
+.sekil img{
+    padding:10px;
+}
+
+.aciqlama {
+    height: 220px;
+    width: 176px;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.aciqlama .author{
+    color:gray;
+    width: 130px;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.reyting {
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.reyting .review {
+    align-self: flex-end;
+}
+
+.metn p{
+    text-transform: capitalize;
+}
+
+
+.aciqlama .author h3{
+    font-size: 10px;
+}
+
+.aciqlama h4{
+    color:gray;
+    font-size: 10px;
+}
+
+.aciqlama .bookname h2{
+    width: 176px;
+    height: 22px;
+    font-size: 16px;
+}
+
+.aciqlama .reyting h4{
+    display: inline-block;
+}
+
+.reyting{
+    width: 140px;
+    height: 16px;
+    margin-top: 11px;
+}
+
+.aciqlama p{
+    width: 176px;
+    height: 42px;
+    color:gray;
+    margin-top: 15px;
+}
+
+.qiymet{
+    width: 87px;
+    height: 18px;
+    margin-top: 15px;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.qiymet .bold{
+    font-weight: 700;
+
+}
+
+.qiymet .line{
+    color:gray;
+    text-decoration-line:line-through;
+}
+
+.buynow{
+    height: 49px;
+    width: 176px;
+    border:1px solid #4C3DB2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.buynow a{
+    text-decoration: none;
+}
+
+.buynow:hover{
+    background-color:#4C3DB2;
+    transition-duration: 0.5s;
+}
+
+.buynow a:hover{
+    color:white;
+    transition-duration: 0.5s;
+}
+
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.siyahi {
+    width: 316px;
+    height: 710px;
+    display:flex;
+    flex-direction: column;
+    padding:25px;
+    align-items:center;
+    margin-top: -1228px;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(172, 159, 159, 0.3);
+    
+}
+
+.siyahi h2{
+    font-size:16px;
+}
+
+.siyahi ul li{
+    list-style-type: none;
+}
+
+.siyahi li{
+ text-decoration: none;
+ font-size: 12px;
+ margin-top: 25px;
+
+}
+
+.siyahi li a{
+    text-decoration: none;
+    color:gray;
+}
+
+.siyahi  li a:hover{
+    color:black;
+    font-size: 12.8px;
+    transition-duration: 0.6s;
+}
+
+.absolute1{
+    width: 149px;
+    height: 204px;
+    background-color:#9E98DC;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top:40px;
+    margin-left: 1150px;
+    margin-top:-2000px;
+    position:absolute;
+}
+
+.absolute1 h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    color:black;
+}
+
+.absolute1 img{
+    padding-top:10px;
+}
+
+.absolute2{
+    width: 158px;
+    height: 273px;
+    background-color:#FF8FE6;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top:40px;
+    margin-left: 1300px;
+    margin-top:-1700px;
+    position: absolute;
+}
+
+.absolute2 h1{
+    text-transform: uppercase;
+    font-size: 18px;
+    color:black;
+}
+
+.absolute2 img{
+    padding-top:10px;
+}
+
+@media(max-width:1000px){
+    
+}

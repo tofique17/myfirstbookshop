@@ -1,0 +1,112 @@
+.container {
+    font-family: 'Open Sans', sans-serif;
+    width: 397px;
+    height: 990px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.image img {
+    width: 362px;
+    height: 210.7px;
+    padding-top: 10.07px;
+    padding-left: 18px;
+}
+
+.information {
+    height: 46px;
+    width: 361px;
+    padding-left: 18px;
+}
+
+
+.information h1 {
+    font-size: 20px;
+}
+
+.ilkbolunen {
+    height: 19px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.apartment {
+    width: 300px;
+    height: 19px;
+    padding-top: 27px;
+}
+
+.apartment h3 {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.like {
+    width: 18.67px;
+    height: 16.05px;
+    margin-top: 45px;
+}
+
+.ikincibolunen {
+    height: 32.11px;
+    width: 361px;
+    padding-top: 50px;
+}
+
+.usedproperty img {
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 30.65px;
+}
+
+.maps {
+    margin-top: 34px;
+    margin-left: 18px;
+}
+
+.photos {
+    height: 31px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.yazi {
+    width: 62px;
+    height: 31px;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+
+.yazi h4 {
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.more img {
+    height: 36px;
+    width: 36px;
+    margin-right: 16px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.sekiller {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 250px;
+    margin-top: 60px;
+    align-items: space-evenly;
+
+}
+
+.sekiller img {
+    padding: 10px;
+}
