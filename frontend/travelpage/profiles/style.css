@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    padding:0;
+    width: 326px;
+    height: 335px;
+    border:1px solid black;
+}
+
+header{
+    height: 28px;
+    width: 326px;
+}
+
+header h2{
+    height: 28px;
+    width: 140px;
+    margin-left:5px;
+    display:inline-block;
+
+}
+
+header h2::before{
+    content: url(./friends.png);
+    display: inline-block;
+    margin-right:8px;
+}
+
+header h2::after{
+   content: url(./icons8-more-28.png); 
+    display:inline-block;
+}
